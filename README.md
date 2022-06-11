@@ -32,3 +32,19 @@ Esse conjunto é único e serve como identificação.
 $ openssl sha1 nome-do-arquivo.txt
 
 ##### Obs importante, se alterar um caracter ou adicionar qualquer caracter ou remover/excluir qualquer caracter a mudança é imediata na chave criptrografada, mas se retornar a condição original a chave é mantida pois ela é dinâmica a qualquer alteração.
+
+#### Informações pertinentes sobre a estrutura do GIT
+* OBJETOS FUNDAMENTAIS
+	###### BLOBS -> Contem metadados do git(tipo do objeto, tamanho da string, 	tamanho do arquivo, etc...)
+	###### TREES -> armazena blobs e commits(guarda o nome do arquivo) sera 	responsavel por montar toda a estrutura de onde esta os arquivos, as arvores 	podem apontar para outras arvores ou para os blobs.
+	###### COMMITS -> Mais importante de todos é o objeto que vai juntar tudo, o comit 	tambem tem o sha1. comit grava autor, a hora, emnsagem, parente.
+	uma vez que altera um arquivo altera toda a estrutura.
+
+* SISTEMA DISTRIBUÍDO 
+	É um sistema distribuido seguro, por tudo o que foi falado sobre criptografia no tema anterior.
+
+##### SEGURANÇA
+
+CHAVE SSH E TOKEN
+Quando vou inserir meu código para o github vou precisar me autenticar.
+Nome de usuario e senha, ficaram obsoletos esse tipo de autenticação foi desligada.
