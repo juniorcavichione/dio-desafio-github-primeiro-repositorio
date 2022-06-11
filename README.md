@@ -30,3 +30,5 @@ Esse conjunto é único e serve como identificação.
 ##### Comando para criptografar o arquivo
 
 $ openssl sha1 nome-do-arquivo.txt
+
+##### Obs importante, se alterar um caracter ou adicionar qualquer caracter ou remover/excluir qualquer caracter a mudança é imediata na chave criptrografada, mas se retornar a condição original a chave é mantida pois ela é dinâmica a qualquer alteração.
