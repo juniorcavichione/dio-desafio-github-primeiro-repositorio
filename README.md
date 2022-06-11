@@ -48,3 +48,46 @@ $ openssl sha1 nome-do-arquivo.txt
 CHAVE SSH E TOKEN
 Quando vou inserir meu código para o github vou precisar me autenticar.
 Nome de usuario e senha, ficaram obsoletos esse tipo de autenticação foi desligada.
+
+#### INICIANDO O GIT E CRIANDO UM COMIT
+
+Todo comando do git leva o git no ínicio
+
+Iniciar repositorio
+git init
+
+Dar nicio ao versionameneto e primeiros comandos
+git add
+
+Criar primeiro commit
+git commit
+
+#### Criando um repositório
+
+* Configuração inicial no gitbash
+$ git config --global user.email "email@gmail.com"
+$ git config --global user.name Nome
+
+* Realizando o comit
+$ git add*
+$ git commit -m "commit inicial"
+
+### Comando git init inicia um repositório
+### Comando -git status mostra o status do repositório
+
+* Comando para mover um repositório
+mv nome-arquivo-markdown.md ./pasta-a-mover/
+
+#### Enviar pro repositorio do github:
+git remote add origin link-do-endereço-do-GIT.git
+
+git remote -v
+Mostra as lista de repositórios
+
+Para clonar um repositório
+git clone (URL do repositório)
+
+Para fazer um "PUSH" para o github
+git push origin master
+
+# FIM DA ANOTAÇÕES
