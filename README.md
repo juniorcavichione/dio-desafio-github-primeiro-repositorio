@@ -19,3 +19,10 @@ Outros Comandos
 * rmdir workspace /s /q (comando para remover a pasta e tudo que estiver nela)
 * git --version = versão do git
 * ls -a mostra arquivos ocultos
+
+##### COMO O GIT FUNCIONA
+
+* SHA1
+É a criptografia do arquivo - é feito um embaralhamento do arquivo
+A encriptação gera um conjunto de characteres identificador de 40 digitos.
+Esse conjunto é único e serve como identificação.
